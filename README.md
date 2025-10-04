@@ -3,6 +3,9 @@
 Osminokal is your little tentacled sea-dwelling friend to help you connect
 Octopus Energy's free energy sessions to your calendar.
 
+It runs as a long-polling application, designed to be run on your homelab or
+perhaps just a service on your laptop.
+
 ## Usage
 
 Osminokal is configured by environment variables only. Here is an example:
@@ -65,3 +68,5 @@ For the CalDAV connector, you need to have the following keys:
 
 - [ ] calendars need deps, but source doesnt?
 - [ ] Implement david source
+- [ ] tests???
+- [ ] make oneshot version
