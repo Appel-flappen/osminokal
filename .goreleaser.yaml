@@ -15,9 +15,9 @@ builds:
       - CGO_ENABLED=0
     ldflags:
       - "-s -w"
-      - "-X github.com/appel-flappen/osminokal/version.Version={{.Version}}"
-      - "-X github.com/appel-flappen/osminokal/version.Commit={{.Commit}}"
-      - "-X github.com/appel-flappen/osminokal/version.BuildDate={{.Date}}"
+      - "-X github.com/Appel-flappen/osminokal/version.Version={{.Version}}"
+      - "-X github.com/Appel-flappen/osminokal/version.Commit={{.Commit}}"
+      - "-X github.com/Appel-flappen/osminokal/version.BuildDate={{.Date}}"
 
     goos:
       - linux
@@ -34,7 +34,7 @@ archives:
     name_template: "{{ .ProjectName }}_{{ .Version }}_{{ .Os }}_{{ .Arch }}{{ if .Arm }}v{{ .Arm }}{{ end }}"
 
     files:
-      - LICENSE
+      - LICENCE
       - README.md
 
 checksum:
