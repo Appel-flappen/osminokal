@@ -47,7 +47,7 @@ release:
   name_template: "Release {{ .Tag }}"
   draft: true
   prerelease: auto
-  skip_upload: true
+  skip_upload: false
 
 dockers_v2:
   - id: "osminokal-image"
